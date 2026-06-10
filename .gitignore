@@ -1,1 +1,43 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Local environment and project state
+.env
+.env.*
+!.env.example
+research.config.json
+.expert-research/
+.expert-research*/
+
+# Local databases and generated state
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+
+# Logs, caches, and temp files
+*.log
+logs/
+.cache/
+tmp/
+temp/
+.DS_Store
+
+# Local agent and telemetry output
+.codex/
+.agents/
+jaeger/
+jaeger-data/
+otel-data/
+traces/
+
+reports/*
+!reports/.gitkeep
+
 RESEARCH_PARTNER_PLAN.md
